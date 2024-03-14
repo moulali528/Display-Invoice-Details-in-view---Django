@@ -15,6 +15,7 @@ class Invoice(models.Model):
     supplier_govt_id = models.IntegerField()
     bar_code = models.IntegerField()
     issuer_name = models.CharField(max_length=20)
+    issuer_id = models.IntegerField()
     
     #date_posted = models.DateField()
     #date_posted = timezone.now()
